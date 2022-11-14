@@ -1,0 +1,30 @@
+.preloader {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(#012, #123);
+	z-index: 100;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 1s;
+}
+.preloader--done {
+	transform: translateX(100%);
+}
+.preloader__circle {
+	height: 120px;
+	width: 120px;
+	border: 10px dotted #234;
+	border-radius: 150px;
+
+	animation: rotate 4s infinite linear;
+}
+
+@keyframes rotate {
+	to {
+		transform: rotate(360deg);
+	}
+}

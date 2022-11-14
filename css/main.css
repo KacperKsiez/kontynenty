@@ -1,0 +1,25 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: serif;
+	font-family: "Hind", sans-serif;
+}
+
+/* .textCenter {
+	top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+	display: block;
+} */
+.icon-white {
+	color: snow;
+}
+
+.scroll {
+	height: 100vh;
+	scroll-snap-align: start;
+}

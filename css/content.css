@@ -1,0 +1,48 @@
+.continent {
+	height: 100vh;
+	color: snow;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.content {
+	height: 100vh;
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+}
+
+.continent1 {
+	background: #345 url(../img/europa.jpg) center no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+.continent2 {
+	background: #345 url(../img/azja.jpg) center no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+.continent3 {
+	background: #345 url(../img/afryka.jpg) center no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+.continent4 {
+	background: #345 url(../img/australia.jpg) center no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+.continent__title {
+	font-size: 4em;
+	text-transform: uppercase;
+}
+.continent__text {
+	border-top: 2px solid snow;
+	border-bottom: 2px solid snow;
+	padding: 30px;
+	width: 700px;
+	text-align: justify;
+}
